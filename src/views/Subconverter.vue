@@ -264,7 +264,7 @@
 const project = process.env.VUE_APP_PROJECT
 const remoteConfigSample = process.env.VUE_APP_SUBCONVERTER_REMOTE_CONFIG
 const gayhubRelease = process.env.VUE_APP_BACKEND_RELEASE
-const defaultBackend = "https://back.offshoreview.xyz" + '/sub?'
+const defaultBackend = "http://45.78.22.202:25500" + '/sub?'
 const shortUrlBackend = process.env.VUE_APP_MYURLS_DEFAULT_BACKEND + '/short'
 const configUploadBackend = process.env.VUE_APP_CONFIG_UPLOAD_BACKEND + '/config/upload'
 const tgBotLink = process.env.VUE_APP_BOT_LINK
@@ -295,7 +295,7 @@ export default {
           ClashR: "clashr",
           Surge2: "surge&ver=2",
         },
-        backendOptions: [{ value: "https://back.offshoreview.xyz/sub?" }],
+        backendOptions: [{ value: "http://45.78.22.202:25500/sub?" }],
         remoteConfig: [
         {
             label: "ACL4SSR",
